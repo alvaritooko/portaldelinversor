@@ -30,7 +30,7 @@ export const siteData = {
       id: "universidades",
       title: "Universidades y Educación Superior",
       description: "Polo académico, investigación, conocimiento. La ciudad alberga importantes instituciones educativas y de investigación, creando un ecosistema propicio para la innovación y el desarrollo del capital humano.",
-      image: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+      image: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?ixlib=rb-4.0.3&auto=format&fit=crop&w=2073&q=80"
     },
     {
       id: "otros-sectores",
