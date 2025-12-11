@@ -3,28 +3,28 @@ export const siteData = {
   subtitle: "Gobierno de Posadas",
   hero: {
     title: "Impulsando el futuro de Posadas",
-    subtitle: "Tecnología, turismo, inversión inmobiliaria y universidades: los motores de nuestra ciudad.",
+    subtitle: "Inversión Inmobiliaria, turismo, tecnología y universidades: los motores de nuestra ciudad.",
     ctaText: "Explorar oportunidades",
-    backgroundImage: "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+    backgroundImage: "https://res.cloudinary.com/dyybobphi/image/upload/v1764704340/imagen_favoritos_andres_guacurari1_jt3zdo.jpg"
   },
   sections: [
     {
-      id: "tecnologia",
-      title: "Tecnología",
-      description: "Innovación, startups, infraestructura digital. Posadas se posiciona como un hub tecnológico en la región, ofreciendo oportunidades para empresas de tecnología, desarrollo de software y servicios digitales.",
-      image: "https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+      id: "inversiones",
+      title: "Inversiones Inmobiliarias",
+      description: "Desarrollo urbano, construcción, real estate. Posadas ofrece un mercado inmobiliario en crecimiento con oportunidades en desarrollo residencial, comercial y proyectos de infraestructura urbana.",
+      image: "https://res.cloudinary.com/dyybobphi/image/upload/v1761513253/pasaporte_hero_kq9mcq.jpg"
     },
     {
       id: "turismo",
       title: "Turismo y Turismo Náutico",
       description: "Servicios, atractivos, entorno natural. La ciudad cuenta con una ubicación privilegiada junto al río Paraná, ofreciendo oportunidades en turismo náutico, hotelería, gastronomía y servicios turísticos de calidad.",
-      image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+      image: "https://res.cloudinary.com/dyybobphi/image/upload/v1765495399/turismo_nautico_inversiones_home_acwpdd.jpg"
     },
     {
-      id: "inversiones",
-      title: "Inversiones Inmobiliarias",
-      description: "Desarrollo urbano, construcción, real estate. Posadas ofrece un mercado inmobiliario en crecimiento con oportunidades en desarrollo residencial, comercial y proyectos de infraestructura urbana.",
-      image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=2073&q=80"
+      id: "tecnologia",
+      title: "Tecnología",
+      description: "Innovación, startups, infraestructura digital. Posadas se posiciona como un hub tecnológico en la región, ofreciendo oportunidades para empresas de tecnología, desarrollo de software y servicios digitales.",
+      image: "https://res.cloudinary.com/dyybobphi/image/upload/v1765495158/tecnologia_inversiones_home_hn9rpr.jpg"
     },
     {
       id: "universidades",

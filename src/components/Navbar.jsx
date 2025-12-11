@@ -59,7 +59,7 @@ const Navbar = () => {
               className="focus:outline-none"
             >
               <img
-                src={scrolled ? "/inversiones_logo_negro.png" : "/inversiones_logo_blanco.png"}
+                src={scrolled ? "/inversiones_logo_verde.png" : "/inversiones_logo_blanco.png"}
                 alt={siteData.name}
                 className="h-16 sm:h-20 md:h-24 transition-all duration-300"
               />
