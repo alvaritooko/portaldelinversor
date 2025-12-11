@@ -27,7 +27,7 @@ const Hero = () => {
           backgroundImage: `url(${siteData.hero.backgroundImage})`,
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-b from-primary-900/70 via-primary-900/60 to-primary-900/70"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-primary-900/70 via-primary-800/60 to-primary-900/70"></div>
       </div>
 
       {/* Content */}
@@ -40,7 +40,7 @@ const Hero = () => {
         </p>
         <button
           onClick={scrollToSections}
-          className="inline-block px-10 py-4 bg-white text-primary-800 font-semibold text-lg rounded-lg shadow-xl hover:bg-primary-50 transition-all duration-300 transform hover:scale-105 hover:shadow-2xl"
+          className="inline-block px-10 py-4 bg-white text-primary-600 font-semibold text-lg rounded-lg shadow-xl hover:bg-accent-500 hover:text-white transition-all duration-300 transform hover:scale-105 hover:shadow-2xl"
         >
           {siteData.hero.ctaText}
         </button>

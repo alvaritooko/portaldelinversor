@@ -13,8 +13,17 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
           <div>
-            <h3 className="text-xl font-semibold mb-4">{siteData.name}</h3>
-            <p className="text-primary-300 text-sm">{siteData.subtitle}</p>
+            <button
+              onClick={scrollToTop}
+              className="focus:outline-none mb-4"
+            >
+              <img
+                src="/inversiones_logo_blanco.png"
+                alt={siteData.name}
+                className="h-16 sm:h-20 md:h-24"
+              />
+            </button>
+            <p className="text-primary-300 text-sm">Dirección General de Turismo e Inversiones, Municipalidad de Posadas</p>
           </div>
           <div>
             <h4 className="text-lg font-semibold mb-4">Navegación</h4>
@@ -27,7 +36,7 @@ const Footer = () => {
                       element.scrollIntoView({ behavior: 'smooth', block: 'start' });
                     }
                   }}
-                  className="hover:text-white transition-colors"
+                  className="hover:text-accent-300 transition-colors"
                 >
                   Tecnología
                 </button>
@@ -40,7 +49,7 @@ const Footer = () => {
                       element.scrollIntoView({ behavior: 'smooth', block: 'start' });
                     }
                   }}
-                  className="hover:text-white transition-colors"
+                  className="hover:text-accent-300 transition-colors"
                 >
                   Turismo
                 </button>
@@ -53,7 +62,7 @@ const Footer = () => {
                       element.scrollIntoView({ behavior: 'smooth', block: 'start' });
                     }
                   }}
-                  className="hover:text-white transition-colors"
+                  className="hover:text-accent-300 transition-colors"
                 >
                   Inversiones
                 </button>
@@ -63,7 +72,7 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Contacto</h4>
             <p className="text-sm text-primary-300">
-              Gobierno de Posadas
+              Dirección General de Turismo e Inversiones, Municipalidad de Posadas
             </p>
             <p className="text-sm text-primary-300 mt-2">
               Misiones, Argentina
@@ -76,7 +85,7 @@ const Footer = () => {
           </p>
           <button
             onClick={scrollToTop}
-            className="text-sm text-primary-300 hover:text-white transition-colors duration-300 flex items-center gap-2 group"
+            className="text-sm text-primary-300 hover:text-accent-300 transition-colors duration-300 flex items-center gap-2 group"
           >
             Volver arriba
             <svg

@@ -24,7 +24,7 @@ const Section = ({ id, title, description, image, isEven }) => {
               <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-primary-800 leading-tight">
                 {title}
               </h2>
-              <div className="w-16 sm:w-20 h-0.5 sm:h-1 bg-primary-600"></div>
+              <div className="w-16 sm:w-20 h-0.5 sm:h-1 bg-accent-500"></div>
               <p className="text-base sm:text-lg md:text-xl text-primary-600 leading-relaxed max-w-2xl">
                 {description}
               </p>
