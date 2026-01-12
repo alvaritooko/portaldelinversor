@@ -6,6 +6,8 @@ const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const [mobileDropdownOpen, setMobileDropdownOpen] = useState(false);
+  const [inversionesDropdownOpen, setInversionesDropdownOpen] = useState(false);
+  const [mobileInversionesDropdownOpen, setMobileInversionesDropdownOpen] = useState(false);
   const location = useLocation();
 
   useEffect(() => {
@@ -138,14 +140,49 @@ const Navbar = () => {
                 </div>
               )}
             </div>
-            <button
-              onClick={() => scrollToSection('inversiones')}
-              className={`text-sm font-medium transition-colors duration-300 hover:text-accent-500 ${
-                scrolled ? 'text-primary-700' : 'text-white'
-              }`}
+            {/* Dropdown Inversiones */}
+            <div 
+              className="relative"
+              onMouseEnter={() => setInversionesDropdownOpen(true)}
+              onMouseLeave={() => setInversionesDropdownOpen(false)}
             >
-              Inversiones
-            </button>
+              <button
+                className={`text-sm font-medium transition-colors duration-300 hover:text-accent-500 flex items-center gap-1 ${
+                  scrolled ? 'text-primary-700' : 'text-white'
+                }`}
+              >
+                Inversiones
+                <svg
+                  className={`w-4 h-4 transition-transform duration-300 ${inversionesDropdownOpen ? 'rotate-180' : ''}`}
+                  fill="none"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path d="M19 9l-7 7-7-7"></path>
+                </svg>
+              </button>
+              {inversionesDropdownOpen && (
+                <div className="absolute top-full left-0 pt-2 w-64 z-50">
+                  <div className="bg-white rounded-lg shadow-xl border border-primary-200 py-2">
+                  <Link
+                    to="/inversiones"
+                    className="block px-4 py-2 text-sm text-primary-700 hover:bg-accent-50 hover:text-accent-600 transition-colors"
+                  >
+                    Inversiones
+                  </Link>
+                  <Link
+                    to="/presentacion"
+                    className="block px-4 py-2 text-sm text-primary-700 hover:bg-accent-50 hover:text-accent-600 transition-colors"
+                  >
+                    Presentación
+                  </Link>
+                  </div>
+                </div>
+              )}
+            </div>
             <button
               onClick={() => scrollToSection('otros-sectores')}
               className={`text-sm font-medium transition-colors duration-300 hover:text-accent-500 ${
@@ -271,15 +308,50 @@ const Navbar = () => {
               </div>
             )}
           </div>
-          <button
-            onClick={() => {
-              scrollToSection('inversiones');
-              document.getElementById('mobile-menu')?.classList.add('hidden');
-            }}
-            className="block w-full text-left px-4 py-2 text-sm font-medium text-primary-700 hover:bg-accent-50 hover:text-accent-600 rounded-md"
-          >
-            Inversiones
-          </button>
+          {/* Mobile Dropdown Inversiones */}
+          <div>
+            <button
+              onClick={() => setMobileInversionesDropdownOpen(!mobileInversionesDropdownOpen)}
+              className="block w-full text-left px-4 py-2 text-sm font-medium text-primary-700 hover:bg-accent-50 hover:text-accent-600 rounded-md flex items-center justify-between"
+            >
+              Inversiones
+              <svg
+                className={`w-4 h-4 transition-transform duration-300 ${mobileInversionesDropdownOpen ? 'rotate-180' : ''}`}
+                fill="none"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path d="M19 9l-7 7-7-7"></path>
+              </svg>
+            </button>
+            {mobileInversionesDropdownOpen && (
+              <div className="pl-4 space-y-1">
+                <Link
+                  to="/inversiones"
+                  onClick={() => {
+                    document.getElementById('mobile-menu')?.classList.add('hidden');
+                    setMobileInversionesDropdownOpen(false);
+                  }}
+                  className="block px-4 py-2 text-sm font-medium text-primary-600 hover:bg-accent-50 hover:text-accent-600 rounded-md"
+                >
+                  Inversiones
+                </Link>
+                <Link
+                  to="/presentacion"
+                  onClick={() => {
+                    document.getElementById('mobile-menu')?.classList.add('hidden');
+                    setMobileInversionesDropdownOpen(false);
+                  }}
+                  className="block px-4 py-2 text-sm font-medium text-primary-600 hover:bg-accent-50 hover:text-accent-600 rounded-md"
+                >
+                  Presentación
+                </Link>
+              </div>
+            )}
+          </div>
           <button
             onClick={() => {
               scrollToSection('otros-sectores');
