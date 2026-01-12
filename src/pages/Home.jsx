@@ -19,16 +19,28 @@ const Home = () => {
     <div className="min-h-screen bg-white">
       <Navbar />
       <Hero />
-      {siteData.sections.map((section, index) => (
-        <Section
-          key={section.id}
-          id={section.id}
-          title={section.title}
-          description={section.description}
-          image={section.image}
-          isEven={index % 2 === 1}
-        />
-      ))}
+      {siteData.sections.map((section, index) => {
+        // Mapear cada sección a su ruta correspondiente
+        const routeMap = {
+          'inversiones': '/area-oportunidad/sector-inmobiliario',
+          'turismo': '/area-oportunidad/turismo',
+          'tecnologia': '/area-oportunidad/innovacion-tecnologia',
+          'universidades': '/area-oportunidad/universidades',
+          'otros-sectores': null // Sin link por ahora
+        };
+
+        return (
+          <Section
+            key={section.id}
+            id={section.id}
+            title={section.title}
+            description={section.description}
+            image={section.image}
+            isEven={index % 2 === 1}
+            link={routeMap[section.id]}
+          />
+        );
+      })}
       <Footer />
     </div>
   );
