@@ -168,7 +168,7 @@ const Navbar = () => {
                 <div className="absolute top-full left-0 pt-2 w-64 z-50">
                   <div className="bg-white rounded-lg shadow-xl border border-primary-200 py-2">
                   <Link
-                    to="/inversiones"
+                    to="/area-oportunidad/sector-inmobiliario"
                     className="block px-4 py-2 text-sm text-primary-700 hover:bg-accent-50 hover:text-accent-600 transition-colors"
                   >
                     Inversiones
@@ -330,7 +330,7 @@ const Navbar = () => {
             {mobileInversionesDropdownOpen && (
               <div className="pl-4 space-y-1">
                 <Link
-                  to="/inversiones"
+                  to="/area-oportunidad/sector-inmobiliario"
                   onClick={() => {
                     document.getElementById('mobile-menu')?.classList.add('hidden');
                     setMobileInversionesDropdownOpen(false);

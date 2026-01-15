@@ -6,7 +6,6 @@ import Turismo from './pages/Turismo';
 import SectorInmobiliario from './pages/SectorInmobiliario';
 import Universidades from './pages/Universidades';
 import InnovacionTecnologia from './pages/InnovacionTecnologia';
-import Inversiones from './pages/Inversiones';
 import Presentacion from './pages/Presentacion';
 
 function App() {
@@ -19,7 +18,6 @@ function App() {
       <Route path="/area-oportunidad/sector-inmobiliario" element={<SectorInmobiliario />} />
       <Route path="/area-oportunidad/universidades" element={<Universidades />} />
       <Route path="/area-oportunidad/innovacion-tecnologia" element={<InnovacionTecnologia />} />
-      <Route path="/inversiones" element={<Inversiones />} />
       <Route path="/presentacion" element={<Presentacion />} />
     </Routes>
   );
