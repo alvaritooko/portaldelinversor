@@ -63,15 +63,18 @@ const SectorInmobiliario = () => {
 
       {/* Body - Contenido completo */}
       <div className="bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           
           {/* Módulo 1 – ¿Por qué invertir en inmobiliaria? */}
-          <section className="mb-24">
-            <h2 className="text-3xl sm:text-4xl font-bold text-primary-800 mb-6">¿Por qué invertir en inmobiliaria?</h2>
-            <div className="grid md:grid-cols-2 gap-12 mt-8">
+          <section className="py-20 sm:py-28 md:py-36">
+            <div className="space-y-6 lg:space-y-8 mb-12">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-primary-800 leading-tight">¿Por qué invertir en inmobiliaria?</h2>
+              <div className="w-16 sm:w-20 h-0.5 sm:h-1 bg-accent-500"></div>
+            </div>
+            <div className="grid md:grid-cols-2 gap-12">
               <div>
-                <h3 className="text-xl font-semibold text-primary-700 mb-4">Beneficios clave</h3>
-                <ul className="space-y-3 text-primary-600">
+                <h3 className="text-xl font-semibold text-primary-800 mb-4">Beneficios clave</h3>
+                <ul className="space-y-3 text-base sm:text-lg md:text-xl text-primary-600 leading-relaxed">
                   <li className="flex items-start">
                     <span className="mr-3 text-accent-500">•</span>
                     <span>Patrimonio tangible que conserva y aumenta su valor en el tiempo</span>
@@ -95,11 +98,11 @@ const SectorInmobiliario = () => {
                 </ul>
               </div>
               <div>
-                <h3 className="text-xl font-semibold text-primary-700 mb-4">Perfil del inversor</h3>
-                <p className="text-primary-600 mb-4">
+                <h3 className="text-xl font-semibold text-primary-800 mb-4">Perfil del inversor</h3>
+                <p className="text-base sm:text-lg md:text-xl text-primary-600 leading-relaxed mb-4">
                   Esta guía está dirigida a inversores que buscan información clara y herramientas prácticas para evaluar oportunidades inmobiliarias en Posadas.
                 </p>
-                <p className="text-primary-600">
+                <p className="text-base sm:text-lg md:text-xl text-primary-600 leading-relaxed">
                   No se requieren conocimientos técnicos previos. El contenido está estructurado para ser accesible tanto para inversores principiantes como para aquellos con experiencia intermedia.
                 </p>
               </div>
@@ -107,29 +110,32 @@ const SectorInmobiliario = () => {
           </section>
 
           {/* Módulo 2 – Paso 1: Seleccionar la zona */}
-          <section className="mb-24">
-            <h2 className="text-3xl sm:text-4xl font-bold text-primary-800 mb-6">Paso 1: Seleccionar la zona</h2>
-            <p className="text-lg text-primary-600 mb-8 max-w-3xl">
-              La elección de la zona es fundamental. Una buena ubicación puede determinar el éxito de la inversión a largo plazo.
-            </p>
+          <section className="py-20 sm:py-28 md:py-36">
+            <div className="space-y-6 lg:space-y-8 mb-12">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-primary-800 leading-tight">Paso 1: Seleccionar la zona</h2>
+              <div className="w-16 sm:w-20 h-0.5 sm:h-1 bg-accent-500"></div>
+              <p className="text-base sm:text-lg md:text-xl text-primary-600 leading-relaxed max-w-3xl">
+                La elección de la zona es fundamental. Una buena ubicación puede determinar el éxito de la inversión a largo plazo.
+              </p>
+            </div>
             
             {/* Instrucciones para usar el mapa */}
-            <div className="mb-8 bg-primary-50 p-6 rounded-lg border-l-4 border-primary-500">
-              <h3 className="text-lg font-semibold text-primary-800 mb-3">Cómo buscar información catastral</h3>
-              <p className="text-primary-600 mb-3">
+            <div className="mb-8">
+              <h3 className="text-xl font-semibold text-primary-800 mb-4">Cómo buscar información catastral</h3>
+              <p className="text-base sm:text-lg md:text-xl text-primary-600 leading-relaxed mb-4">
                 Ingresar al siguiente enlace. Encontrarás una ventana a la izquierda con los apartados donde podés ingresar los datos catastrales de la ciudad de Posadas, como también la posibilidad de utilizar el plano con un click y desplazarte por cada zona de la ciudad explorando las diferentes secciones y barrios de forma independiente:
               </p>
-              <ul className="space-y-2 text-primary-600 ml-4">
+              <ul className="space-y-2 text-base sm:text-lg md:text-xl text-primary-600 leading-relaxed">
                 <li className="flex items-start">
-                  <span className="mr-2 text-accent-500">•</span>
+                  <span className="mr-3 text-accent-500">•</span>
                   <span><strong>Departamento:</strong> 4 - Capital</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="mr-2 text-accent-500">•</span>
+                  <span className="mr-3 text-accent-500">•</span>
                   <span><strong>Municipio:</strong> 59 - Posadas</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="mr-2 text-accent-500">•</span>
+                  <span className="mr-3 text-accent-500">•</span>
                   <span>Luego, según la zona de Posadas: <strong>Sección</strong>, <strong>Chacra</strong>, <strong>Manzana</strong> y <strong>Parcela</strong></span>
                 </li>
               </ul>
@@ -153,10 +159,10 @@ const SectorInmobiliario = () => {
               </a>
             </div>
 
-            <div className="grid md:grid-cols-2 gap-12 mt-8">
+            <div className="grid md:grid-cols-2 gap-12 mt-12">
               <div>
-                <h3 className="text-xl font-semibold text-primary-700 mb-4">Criterios de análisis urbano</h3>
-                <ul className="space-y-3 text-primary-600">
+                <h3 className="text-xl font-semibold text-primary-800 mb-4">Criterios de análisis urbano</h3>
+                <ul className="space-y-3 text-base sm:text-lg md:text-xl text-primary-600 leading-relaxed">
                   <li className="flex items-start">
                     <span className="mr-3 text-accent-500">•</span>
                     <span>Accesibilidad y conectividad vial</span>
@@ -180,8 +186,8 @@ const SectorInmobiliario = () => {
                 </ul>
               </div>
               <div>
-                <h3 className="text-xl font-semibold text-primary-700 mb-4">Variables económicas y sociales</h3>
-                <ul className="space-y-3 text-primary-600">
+                <h3 className="text-xl font-semibold text-primary-800 mb-4">Variables económicas y sociales</h3>
+                <ul className="space-y-3 text-base sm:text-lg md:text-xl text-primary-600 leading-relaxed">
                   <li className="flex items-start">
                     <span className="mr-3 text-accent-500">•</span>
                     <span>Dinámica demográfica del barrio</span>
@@ -208,19 +214,22 @@ const SectorInmobiliario = () => {
           </section>
 
           {/* Módulo 3 – Barrios de Posadas */}
-          <section className="mb-24">
-            <h2 className="text-3xl sm:text-4xl font-bold text-primary-800 mb-6">Barrios de Posadas</h2>
-            <p className="text-lg text-primary-600 mb-8 max-w-3xl">
-              Análisis por barrio con indicadores clave para la toma de decisiones. La información se actualiza periódicamente.
-            </p>
+          <section className="py-20 sm:py-28 md:py-36">
+            <div className="space-y-6 lg:space-y-8 mb-12">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-primary-800 leading-tight">Barrios de Posadas</h2>
+              <div className="w-16 sm:w-20 h-0.5 sm:h-1 bg-accent-500"></div>
+              <p className="text-base sm:text-lg md:text-xl text-primary-600 leading-relaxed max-w-3xl">
+                Análisis por barrio con indicadores clave para la toma de decisiones. La información se actualiza periódicamente.
+              </p>
+            </div>
             
             {/* Instrucciones para usar el mapa de barrios */}
-            <div className="mb-8 bg-primary-50 p-6 rounded-lg border-l-4 border-primary-500">
-              <h3 className="text-lg font-semibold text-primary-800 mb-3">Cómo buscar información de los barrios</h3>
-              <p className="text-primary-600 mb-3">
+            <div className="mb-8">
+              <h3 className="text-xl font-semibold text-primary-800 mb-4">Cómo buscar información de los barrios</h3>
+              <p className="text-base sm:text-lg md:text-xl text-primary-600 leading-relaxed mb-4">
                 Ingresar a la ventana. En la parte izquierda tendrás varios botones de búsqueda. Darle clic a los cuadrados superpuestos y seleccionar por chacras y barrios, los cuales se resaltarán según la zona.
               </p>
-              <p className="text-primary-600">
+              <p className="text-base sm:text-lg md:text-xl text-primary-600 leading-relaxed">
                 También tiene la posibilidad de desplazarse libremente con el mouse y explorar el mapa interactivo.
               </p>
             </div>
@@ -244,8 +253,8 @@ const SectorInmobiliario = () => {
             </div>
             
             {/* Estructura reutilizable por barrio */}
-            <div className="space-y-16">
-              <div className="border-l-4 border-primary-500 pl-6">
+            <div className="space-y-12 mt-12">
+              <div>
                 <h3 className="text-2xl font-bold text-primary-800 mb-4">Barrio Centro</h3>
                 <div className="grid md:grid-cols-3 gap-6 mb-6">
                   <div>
@@ -261,12 +270,12 @@ const SectorInmobiliario = () => {
                     <p className="text-primary-700">[Completos - zona consolidada]</p>
                   </div>
                 </div>
-                <p className="text-primary-600">
+                <p className="text-base sm:text-lg md:text-xl text-primary-600 leading-relaxed">
                   [Descripción del barrio, características principales, tendencias de desarrollo y oportunidades de inversión identificadas.]
                 </p>
               </div>
 
-              <div className="border-l-4 border-primary-500 pl-6">
+              <div>
                 <h3 className="text-2xl font-bold text-primary-800 mb-4">Barrio Villa Blosset</h3>
                 <div className="grid md:grid-cols-3 gap-6 mb-6">
                   <div>
@@ -282,12 +291,12 @@ const SectorInmobiliario = () => {
                     <p className="text-primary-700">[En desarrollo]</p>
                   </div>
                 </div>
-                <p className="text-primary-600">
+                <p className="text-base sm:text-lg md:text-xl text-primary-600 leading-relaxed">
                   [Descripción del barrio, características principales, tendencias de desarrollo y oportunidades de inversión identificadas.]
                 </p>
               </div>
 
-              <div className="border-l-4 border-primary-500 pl-6">
+              <div>
                 <h3 className="text-2xl font-bold text-primary-800 mb-4">Barrio Itaembé Guazú</h3>
                 <div className="grid md:grid-cols-3 gap-6 mb-6">
                   <div>
@@ -303,7 +312,7 @@ const SectorInmobiliario = () => {
                     <p className="text-primary-700">[En crecimiento]</p>
                   </div>
                 </div>
-                <p className="text-primary-600">
+                <p className="text-base sm:text-lg md:text-xl text-primary-600 leading-relaxed">
                   [Descripción del barrio, características principales, tendencias de desarrollo y oportunidades de inversión identificadas.]
                 </p>
               </div>
@@ -311,16 +320,19 @@ const SectorInmobiliario = () => {
           </section>
 
           {/* Módulo 4 – Indicadores urbanísticos */}
-          <section className="mb-24">
-            <h2 className="text-3xl sm:text-4xl font-bold text-primary-800 mb-6">Indicadores urbanísticos</h2>
-            <p className="text-lg text-primary-600 mb-8 max-w-3xl">
-              Los indicadores urbanísticos definen qué se puede construir en cada zona. Es fundamental conocerlos antes de adquirir un terreno o planificar un proyecto.
-            </p>
+          <section className="py-20 sm:py-28 md:py-36">
+            <div className="space-y-6 lg:space-y-8 mb-12">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-primary-800 leading-tight">Indicadores urbanísticos</h2>
+              <div className="w-16 sm:w-20 h-0.5 sm:h-1 bg-accent-500"></div>
+              <p className="text-base sm:text-lg md:text-xl text-primary-600 leading-relaxed max-w-3xl">
+                Los indicadores urbanísticos definen qué se puede construir en cada zona. Es fundamental conocerlos antes de adquirir un terreno o planificar un proyecto.
+              </p>
+            </div>
             
             {/* Instrucciones para buscar indicadores urbanísticos */}
-            <div className="mb-8 bg-primary-50 p-6 rounded-lg border-l-4 border-primary-500">
-              <h3 className="text-lg font-semibold text-primary-800 mb-3">Cómo buscar los indicadores urbanísticos paso a paso</h3>
-              <ol className="space-y-3 text-primary-600 ml-4 list-decimal">
+            <div className="mb-8">
+              <h3 className="text-xl font-semibold text-primary-800 mb-4">Cómo buscar los indicadores urbanísticos paso a paso</h3>
+              <ol className="space-y-3 text-base sm:text-lg md:text-xl text-primary-600 leading-relaxed ml-4 list-decimal">
                 <li>Hacer click en la imagen para ingresar al GIS</li>
                 <li>Una vez abierto, del lado derecho tenemos un panel con categorías por secciones de Posadas</li>
                 <li>Seleccionamos la sección, se pintará la zona de Posadas con esa sección</li>
@@ -347,10 +359,10 @@ const SectorInmobiliario = () => {
               </a>
             </div>
             
-            <div className="grid md:grid-cols-3 gap-8 mt-8">
-              <div className="bg-primary-50 p-6 rounded-lg">
+            <div className="grid md:grid-cols-3 gap-8 mt-12">
+              <div>
                 <h3 className="text-xl font-semibold text-primary-800 mb-3">FOS - Factor de Ocupación del Suelo</h3>
-                <p className="text-primary-600 mb-4">
+                <p className="text-base sm:text-lg md:text-xl text-primary-600 leading-relaxed mb-4">
                   Porcentaje del terreno que puede ser ocupado por la construcción en planta baja.
                 </p>
                 <p className="text-sm text-primary-500">
@@ -358,9 +370,9 @@ const SectorInmobiliario = () => {
                 </p>
               </div>
 
-              <div className="bg-primary-50 p-6 rounded-lg">
+              <div>
                 <h3 className="text-xl font-semibold text-primary-800 mb-3">FOT - Factor de Ocupación Total</h3>
-                <p className="text-primary-600 mb-4">
+                <p className="text-base sm:text-lg md:text-xl text-primary-600 leading-relaxed mb-4">
                   Relación entre la superficie total construible y la superficie del terreno.
                 </p>
                 <p className="text-sm text-primary-500">
@@ -368,9 +380,9 @@ const SectorInmobiliario = () => {
                 </p>
               </div>
 
-              <div className="bg-primary-50 p-6 rounded-lg">
+              <div>
                 <h3 className="text-xl font-semibold text-primary-800 mb-3">Altura máxima</h3>
-                <p className="text-primary-600 mb-4">
+                <p className="text-base sm:text-lg md:text-xl text-primary-600 leading-relaxed mb-4">
                   Cantidad de pisos o metros permitidos según la zonificación.
                 </p>
                 <p className="text-sm text-primary-500">
@@ -382,7 +394,7 @@ const SectorInmobiliario = () => {
             {/* Título y subtítulo para ejemplos de indicadores urbanísticos */}
             <div className="mt-12 mb-8">
               <h3 className="text-2xl sm:text-3xl font-bold text-primary-800 mb-4">Ejemplos de Indicadores Urbanísticos</h3>
-              <p className="text-lg text-primary-600 max-w-3xl">
+              <p className="text-base sm:text-lg md:text-xl text-primary-600 leading-relaxed max-w-3xl">
                 A continuación se presentan ejemplos visuales de cómo se aplican los indicadores urbanísticos en diferentes zonas de Posadas.
               </p>
             </div>
@@ -454,11 +466,11 @@ const SectorInmobiliario = () => {
             )}
 
             <div className="mt-12">
-              <h3 className="text-xl font-semibold text-primary-700 mb-4">Zonificación</h3>
-              <p className="text-primary-600 mb-4">
+              <h3 className="text-xl font-semibold text-primary-800 mb-4">Zonificación</h3>
+              <p className="text-base sm:text-lg md:text-xl text-primary-600 leading-relaxed mb-4">
                 La zonificación clasifica el territorio según el uso permitido:
               </p>
-              <ul className="space-y-2 text-primary-600">
+              <ul className="space-y-2 text-base sm:text-lg md:text-xl text-primary-600 leading-relaxed">
                 <li className="flex items-start">
                   <span className="mr-3 text-accent-500">•</span>
                   <span><strong>Residencial:</strong> Viviendas unifamiliares y multifamiliares</span>
@@ -478,31 +490,34 @@ const SectorInmobiliario = () => {
               </ul>
             </div>
 
-            <div className="mt-8 bg-accent-50 p-6 rounded-lg border-l-4 border-accent-500">
-              <h3 className="text-lg font-semibold text-primary-800 mb-3">¿Qué permiten y qué limitan?</h3>
-              <p className="text-primary-600 mb-3">
+            <div className="mt-8">
+              <h3 className="text-xl font-semibold text-primary-800 mb-4">¿Qué permiten y qué limitan?</h3>
+              <p className="text-base sm:text-lg md:text-xl text-primary-600 leading-relaxed mb-4">
                 Estos indicadores determinan la densidad de construcción posible, el tipo de proyecto viable y, en consecuencia, el potencial de rentabilidad.
               </p>
-              <p className="text-primary-600">
+              <p className="text-base sm:text-lg md:text-xl text-primary-600 leading-relaxed">
                 Es recomendable consultar el Código de Ordenamiento Urbano de Posadas y verificar la zonificación específica del terreno antes de realizar cualquier inversión.
               </p>
             </div>
           </section>
 
           {/* Módulo 5 – Tipos de inversión */}
-          <section className="mb-24">
-            <h2 className="text-3xl sm:text-4xl font-bold text-primary-800 mb-6">Tipos de inversión</h2>
-            <p className="text-lg text-primary-600 mb-12 max-w-3xl">
-              Diferentes estrategias según el perfil del inversor, el capital disponible y los objetivos de rentabilidad.
-            </p>
+          <section className="py-20 sm:py-28 md:py-36">
+            <div className="space-y-6 lg:space-y-8 mb-12">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-primary-800 leading-tight">Tipos de inversión</h2>
+              <div className="w-16 sm:w-20 h-0.5 sm:h-1 bg-accent-500"></div>
+              <p className="text-base sm:text-lg md:text-xl text-primary-600 leading-relaxed max-w-3xl">
+                Diferentes estrategias según el perfil del inversor, el capital disponible y los objetivos de rentabilidad.
+              </p>
+            </div>
 
             <div className="grid md:grid-cols-2 gap-8">
-              <div className="border border-primary-200 rounded-lg p-6">
+              <div>
                 <h3 className="text-xl font-semibold text-primary-800 mb-3">Lote</h3>
-                <p className="text-primary-600 mb-4">
+                <p className="text-base sm:text-lg md:text-xl text-primary-600 leading-relaxed mb-4">
                   Adquisición de terreno para valorización a mediano o largo plazo, o como insumo para desarrollo futuro.
                 </p>
-                <ul className="space-y-2 text-sm text-primary-600">
+                <ul className="space-y-2 text-base sm:text-lg text-primary-600 leading-relaxed">
                   <li>• Menor inversión inicial</li>
                   <li>• Menor mantenimiento</li>
                   <li>• Rentabilidad a largo plazo</li>
@@ -510,12 +525,12 @@ const SectorInmobiliario = () => {
                 </ul>
               </div>
 
-              <div className="border border-primary-200 rounded-lg p-6">
+              <div>
                 <h3 className="text-xl font-semibold text-primary-800 mb-3">Vivienda</h3>
-                <p className="text-primary-600 mb-4">
+                <p className="text-base sm:text-lg md:text-xl text-primary-600 leading-relaxed mb-4">
                   Compra de propiedad terminada para uso propio, alquiler o reventa.
                 </p>
-                <ul className="space-y-2 text-sm text-primary-600">
+                <ul className="space-y-2 text-base sm:text-lg text-primary-600 leading-relaxed">
                   <li>• Inversión inmediata en activo tangible</li>
                   <li>• Posibilidad de generar renta</li>
                   <li>• Requiere mantenimiento</li>
@@ -523,12 +538,12 @@ const SectorInmobiliario = () => {
                 </ul>
               </div>
 
-              <div className="border border-primary-200 rounded-lg p-6">
+              <div>
                 <h3 className="text-xl font-semibold text-primary-800 mb-3">Desarrollo</h3>
-                <p className="text-primary-600 mb-4">
+                <p className="text-base sm:text-lg md:text-xl text-primary-600 leading-relaxed mb-4">
                   Construcción de obra nueva o remodelación para venta o alquiler.
                 </p>
-                <ul className="space-y-2 text-sm text-primary-600">
+                <ul className="space-y-2 text-base sm:text-lg text-primary-600 leading-relaxed">
                   <li>• Mayor potencial de rentabilidad</li>
                   <li>• Requiere conocimiento técnico</li>
                   <li>• Mayor riesgo y capital</li>
@@ -536,12 +551,12 @@ const SectorInmobiliario = () => {
                 </ul>
               </div>
 
-              <div className="border border-primary-200 rounded-lg p-6">
+              <div>
                 <h3 className="text-xl font-semibold text-primary-800 mb-3">Renta</h3>
-                <p className="text-primary-600 mb-4">
+                <p className="text-base sm:text-lg md:text-xl text-primary-600 leading-relaxed mb-4">
                   Adquisición de propiedad para generar ingresos mediante alquiler.
                 </p>
-                <ul className="space-y-2 text-sm text-primary-600">
+                <ul className="space-y-2 text-base sm:text-lg text-primary-600 leading-relaxed">
                   <li>• Ingresos recurrentes</li>
                   <li>• Valorización del activo</li>
                   <li>• Gestión de inquilinos</li>
@@ -552,16 +567,19 @@ const SectorInmobiliario = () => {
           </section>
 
           {/* Módulo 6 – Paso 2: Proyecto y factibilidad */}
-          <section className="mb-24">
-            <h2 className="text-3xl sm:text-4xl font-bold text-primary-800 mb-6">Paso 2: Proyecto y factibilidad</h2>
-            <p className="text-lg text-primary-600 mb-8 max-w-3xl">
-              Una vez seleccionada la zona, es necesario evaluar la viabilidad técnica, económica y legal del proyecto.
-            </p>
+          <section className="py-20 sm:py-28 md:py-36">
+            <div className="space-y-6 lg:space-y-8 mb-12">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-primary-800 leading-tight">Paso 2: Proyecto y factibilidad</h2>
+              <div className="w-16 sm:w-20 h-0.5 sm:h-1 bg-accent-500"></div>
+              <p className="text-base sm:text-lg md:text-xl text-primary-600 leading-relaxed max-w-3xl">
+                Una vez seleccionada la zona, es necesario evaluar la viabilidad técnica, económica y legal del proyecto.
+              </p>
+            </div>
 
-            <div className="grid md:grid-cols-3 gap-8 mt-8">
+            <div className="grid md:grid-cols-3 gap-8 mt-12">
               <div>
-                <h3 className="text-xl font-semibold text-primary-700 mb-4">Análisis técnico</h3>
-                <ul className="space-y-3 text-primary-600">
+                <h3 className="text-xl font-semibold text-primary-800 mb-4">Análisis técnico</h3>
+                <ul className="space-y-3 text-base sm:text-lg md:text-xl text-primary-600 leading-relaxed">
                   <li className="flex items-start">
                     <span className="mr-3 text-accent-500">•</span>
                     <span>Estado del terreno y topografía</span>
@@ -582,8 +600,8 @@ const SectorInmobiliario = () => {
               </div>
 
               <div>
-                <h3 className="text-xl font-semibold text-primary-700 mb-4">Costos</h3>
-                <ul className="space-y-3 text-primary-600">
+                <h3 className="text-xl font-semibold text-primary-800 mb-4">Costos</h3>
+                <ul className="space-y-3 text-base sm:text-lg md:text-xl text-primary-600 leading-relaxed">
                   <li className="flex items-start">
                     <span className="mr-3 text-accent-500">•</span>
                     <span>Adquisición del terreno o propiedad</span>
@@ -608,8 +626,8 @@ const SectorInmobiliario = () => {
               </div>
 
               <div>
-                <h3 className="text-xl font-semibold text-primary-700 mb-4">Riesgos</h3>
-                <ul className="space-y-3 text-primary-600">
+                <h3 className="text-xl font-semibold text-primary-800 mb-4">Riesgos</h3>
+                <ul className="space-y-3 text-base sm:text-lg md:text-xl text-primary-600 leading-relaxed">
                   <li className="flex items-start">
                     <span className="mr-3 text-accent-500">•</span>
                     <span>Variaciones en costos de construcción</span>
@@ -632,12 +650,15 @@ const SectorInmobiliario = () => {
           </section>
 
           {/* Módulo 7 – Carpeta de obra */}
-          <section className="mb-24">
-            <h2 className="text-3xl sm:text-4xl font-bold text-primary-800 mb-6">Carpeta de obra</h2>
+          <section className="py-20 sm:py-28 md:py-36">
+            <div className="space-y-6 lg:space-y-8 mb-12">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-primary-800 leading-tight">Carpeta de obra</h2>
+              <div className="w-16 sm:w-20 h-0.5 sm:h-1 bg-accent-500"></div>
+            </div>
             
             <div className="mb-8">
-              <h3 className="text-xl font-semibold text-primary-700 mb-4">¿Qué es?</h3>
-              <p className="text-lg text-primary-600 max-w-3xl">
+              <h3 className="text-xl font-semibold text-primary-800 mb-4">¿Qué es?</h3>
+              <p className="text-base sm:text-lg md:text-xl text-primary-600 leading-relaxed max-w-3xl">
                 La carpeta de obra es el conjunto de documentación técnica y legal necesaria para obtener el permiso de construcción. Es un requisito obligatorio para iniciar cualquier obra en Posadas.
               </p>
             </div>
@@ -661,11 +682,11 @@ const SectorInmobiliario = () => {
             </div>
 
             <div className="mb-8">
-              <h3 className="text-xl font-semibold text-primary-700 mb-4">Documentación necesaria</h3>
+              <h3 className="text-xl font-semibold text-primary-800 mb-4">Documentación necesaria</h3>
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
                   <h4 className="font-semibold text-primary-800 mb-3">Documentación del terreno</h4>
-                  <ul className="space-y-2 text-primary-600">
+                  <ul className="space-y-2 text-base sm:text-lg text-primary-600 leading-relaxed">
                     <li>• Título de propiedad</li>
                     <li>• Plano de mensura</li>
                     <li>• Certificado de dominio</li>
@@ -674,7 +695,7 @@ const SectorInmobiliario = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-primary-800 mb-3">Documentación técnica</h4>
-                  <ul className="space-y-2 text-primary-600">
+                  <ul className="space-y-2 text-base sm:text-lg text-primary-600 leading-relaxed">
                     <li>• Proyecto arquitectónico</li>
                     <li>• Cálculo estructural</li>
                     <li>• Instalaciones (sanitarias, eléctricas, gas)</li>
@@ -685,34 +706,34 @@ const SectorInmobiliario = () => {
             </div>
 
             <div>
-              <h3 className="text-xl font-semibold text-primary-700 mb-4">Flujo paso a paso</h3>
+              <h3 className="text-xl font-semibold text-primary-800 mb-4">Flujo paso a paso</h3>
               <div className="space-y-4">
                 <div className="flex items-start">
                   <div className="flex-shrink-0 w-8 h-8 bg-primary-500 text-white rounded-full flex items-center justify-center font-semibold mr-4">1</div>
                   <div>
                     <h4 className="font-semibold text-primary-800 mb-1">Preparación de documentación</h4>
-                    <p className="text-primary-600">Reunir toda la documentación requerida según el tipo de obra.</p>
+                    <p className="text-base sm:text-lg text-primary-600 leading-relaxed">Reunir toda la documentación requerida según el tipo de obra.</p>
                   </div>
                 </div>
                 <div className="flex items-start">
                   <div className="flex-shrink-0 w-8 h-8 bg-primary-500 text-white rounded-full flex items-center justify-center font-semibold mr-4">2</div>
                   <div>
                     <h4 className="font-semibold text-primary-800 mb-1">Presentación</h4>
-                    <p className="text-primary-600">Solicitar turno y presentar la carpeta en la Dirección de Obras Privadas.</p>
+                    <p className="text-base sm:text-lg text-primary-600 leading-relaxed">Solicitar turno y presentar la carpeta en la Dirección de Obras Privadas.</p>
                   </div>
                 </div>
                 <div className="flex items-start">
                   <div className="flex-shrink-0 w-8 h-8 bg-primary-500 text-white rounded-full flex items-center justify-center font-semibold mr-4">3</div>
                   <div>
                     <h4 className="font-semibold text-primary-800 mb-1">Revisión</h4>
-                    <p className="text-primary-600">Evaluación técnica y legal por parte de la municipalidad.</p>
+                    <p className="text-base sm:text-lg text-primary-600 leading-relaxed">Evaluación técnica y legal por parte de la municipalidad.</p>
                   </div>
                 </div>
                 <div className="flex items-start">
                   <div className="flex-shrink-0 w-8 h-8 bg-primary-500 text-white rounded-full flex items-center justify-center font-semibold mr-4">4</div>
                   <div>
                     <h4 className="font-semibold text-primary-800 mb-1">Aprobación</h4>
-                    <p className="text-primary-600">Una vez aprobada, se otorga el permiso de construcción.</p>
+                    <p className="text-base sm:text-lg text-primary-600 leading-relaxed">Una vez aprobada, se otorga el permiso de construcción.</p>
                   </div>
                 </div>
               </div>
@@ -720,11 +741,14 @@ const SectorInmobiliario = () => {
           </section>
 
           {/* Módulo 8 – Imágenes, planos y referencias */}
-          <section className="mb-24">
-            <h2 className="text-3xl sm:text-4xl font-bold text-primary-800 mb-6">Imágenes, planos y referencias</h2>
-            <p className="text-lg text-primary-600 mb-12 max-w-3xl">
-              Material de apoyo visual y documentación complementaria para la toma de decisiones.
-            </p>
+          <section className="py-20 sm:py-28 md:py-36">
+            <div className="space-y-6 lg:space-y-8 mb-12">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-primary-800 leading-tight">Imágenes, planos y referencias</h2>
+              <div className="w-16 sm:w-20 h-0.5 sm:h-1 bg-accent-500"></div>
+              <p className="text-base sm:text-lg md:text-xl text-primary-600 leading-relaxed max-w-3xl">
+                Material de apoyo visual y documentación complementaria para la toma de decisiones.
+              </p>
+            </div>
 
             <div className="grid md:grid-cols-2 gap-12">
               <div>
@@ -745,72 +769,70 @@ const SectorInmobiliario = () => {
             </div>
 
             <div className="mt-12">
-              <h3 className="text-xl font-semibold text-primary-700 mb-4">Enlaces externos</h3>
-              <div className="bg-primary-50 p-6 rounded-lg">
-                <ul className="space-y-3 text-primary-600">
-                  <li>
-                    <strong className="text-primary-800">Código de Ordenamiento Urbano:</strong>{' '}
-                    <a 
-                      href="https://posadas.gov.ar/planurbano/normativas-vigentes/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-accent-600 hover:text-accent-700 underline"
-                    >
-                      Normativas Vigentes
-                    </a>
-                  </li>
-                  <li>
-                    <strong className="text-primary-800">Dirección de Obras Privadas:</strong>{' '}
-                    <a 
-                      href="https://posadas.gov.ar/planurbano/#"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-accent-600 hover:text-accent-700 underline"
-                    >
-                      Plan Urbano Ambiental
-                    </a>
-                  </li>
-                  <li>
-                    <strong className="text-primary-800">Mapa interactivo de zonificación:</strong>{' '}
-                    <a 
-                      href="https://posadas.gov.ar/planurbano/mapoteca/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-accent-600 hover:text-accent-700 underline"
-                    >
-                      Mapoteca
-                    </a>
-                  </li>
-                  <li>
-                    <strong className="text-primary-800">Registro de la Propiedad:</strong>{' '}
-                    <a 
-                      href="https://rpi.misiones.gob.ar/formularios/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-accent-600 hover:text-accent-700 underline"
-                    >
-                      Formularios
-                    </a>
-                  </li>
-                </ul>
-              </div>
+              <h3 className="text-xl font-semibold text-primary-800 mb-4">Enlaces externos</h3>
+              <ul className="space-y-3 text-base sm:text-lg md:text-xl text-primary-600 leading-relaxed">
+                <li>
+                  <strong className="text-primary-800">Código de Ordenamiento Urbano:</strong>{' '}
+                  <a 
+                    href="https://posadas.gov.ar/planurbano/normativas-vigentes/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-accent-600 hover:text-accent-700 underline"
+                  >
+                    Normativas Vigentes
+                  </a>
+                </li>
+                <li>
+                  <strong className="text-primary-800">Dirección de Obras Privadas:</strong>{' '}
+                  <a 
+                    href="https://posadas.gov.ar/planurbano/#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-accent-600 hover:text-accent-700 underline"
+                  >
+                    Plan Urbano Ambiental
+                  </a>
+                </li>
+                <li>
+                  <strong className="text-primary-800">Mapa interactivo de zonificación:</strong>{' '}
+                  <a 
+                    href="https://posadas.gov.ar/planurbano/mapoteca/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-accent-600 hover:text-accent-700 underline"
+                  >
+                    Mapoteca
+                  </a>
+                </li>
+                <li>
+                  <strong className="text-primary-800">Registro de la Propiedad:</strong>{' '}
+                  <a 
+                    href="https://rpi.misiones.gob.ar/formularios/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-accent-600 hover:text-accent-700 underline"
+                  >
+                    Formularios
+                  </a>
+                </li>
+              </ul>
             </div>
           </section>
 
           {/* Cierre */}
-          <section className="border-t border-primary-200 pt-12">
+          <section className="py-20 sm:py-28 md:py-36 border-t border-primary-200">
             <div className="text-center max-w-3xl mx-auto">
-              <h2 className="text-3xl font-bold text-primary-800 mb-6">Inversión informada, decisiones acertadas</h2>
-              <p className="text-lg text-primary-600 mb-8">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-primary-800 mb-6 leading-tight">Inversión informada, decisiones acertadas</h2>
+              <p className="text-base sm:text-lg md:text-xl text-primary-600 leading-relaxed mb-8">
                 Esta guía es una herramienta de apoyo para la toma de decisiones. Se recomienda siempre consultar con profesionales (arquitectos, escribanos, contadores) y verificar la información específica de cada proyecto.
               </p>
-              <p className="text-primary-600 mb-8">
+              <p className="text-base sm:text-lg md:text-xl text-primary-600 leading-relaxed mb-8">
                 La Dirección General de Turismo e Inversiones de la Municipalidad de Posadas está disponible para brindar información complementaria y acompañar a los inversores en sus consultas.
               </p>
-              <div className="bg-primary-50 p-6 rounded-lg">
-                <p className="text-primary-700 font-semibold mb-2">¿Necesitas más información?</p>
-                <p className="text-primary-600">Contacta con la Dirección General de Turismo e Inversiones</p>
-                <p className="text-primary-600">Municipalidad de Posadas, Misiones, Argentina</p>
+              <div>
+                <p className="text-primary-800 font-semibold mb-2 text-lg">¿Necesitas más información?</p>
+                <p className="text-base sm:text-lg text-primary-600">Contacta con la Dirección General de Turismo e Inversiones</p>
+                <p className="text-base sm:text-lg text-primary-600">Municipalidad de Posadas, Misiones, Argentina</p>
               </div>
             </div>
           </section>
