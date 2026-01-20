@@ -50,13 +50,10 @@ const SectorInmobiliario = () => {
         </div>
         <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-            Guía para Invertir en Inmobiliaria en Posadas
+            Invertir en Posadas: Claves del Mercado Inmobiliario
           </h1>
           <p className="text-lg sm:text-xl md:text-2xl text-white/95 mb-8 max-w-3xl mx-auto leading-relaxed">
             Una guía paso a paso para tomar decisiones informadas en el mercado inmobiliario de Posadas, Misiones.
-          </p>
-          <p className="text-base sm:text-lg text-white/90 max-w-2xl mx-auto">
-            Dirección General de Turismo e Inversiones, Municipalidad de Posadas
           </p>
         </div>
       </section>
@@ -826,12 +823,8 @@ const SectorInmobiliario = () => {
               <p className="text-base sm:text-lg md:text-xl text-primary-600 leading-relaxed mb-8">
                 Esta guía es una herramienta de apoyo para la toma de decisiones. Se recomienda siempre consultar con profesionales (arquitectos, escribanos, contadores) y verificar la información específica de cada proyecto.
               </p>
-              <p className="text-base sm:text-lg md:text-xl text-primary-600 leading-relaxed mb-8">
-                La Dirección General de Turismo e Inversiones de la Municipalidad de Posadas está disponible para brindar información complementaria y acompañar a los inversores en sus consultas.
-              </p>
               <div>
                 <p className="text-primary-800 font-semibold mb-2 text-lg">¿Necesitas más información?</p>
-                <p className="text-base sm:text-lg text-primary-600">Contacta con la Dirección General de Turismo e Inversiones</p>
                 <p className="text-base sm:text-lg text-primary-600">Municipalidad de Posadas, Misiones, Argentina</p>
               </div>
             </div>

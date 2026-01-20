@@ -7,6 +7,7 @@ import SectorInmobiliario from './pages/SectorInmobiliario';
 import Universidades from './pages/Universidades';
 import InnovacionTecnologia from './pages/InnovacionTecnologia';
 import Presentacion from './pages/Presentacion';
+import Inversiones from './pages/Inversiones';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Route path="/area-oportunidad/universidades" element={<Universidades />} />
       <Route path="/area-oportunidad/innovacion-tecnologia" element={<InnovacionTecnologia />} />
       <Route path="/presentacion" element={<Presentacion />} />
+      <Route path="/inversiones" element={<Inversiones />} />
     </Routes>
   );
 }
