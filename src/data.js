@@ -2,10 +2,10 @@ export const siteData = {
   name: "El Portal del Inversor",
   subtitle: "Gobierno de Posadas",
   hero: {
-    title: "Impulsando el futuro de Posadas",
-    subtitle: "Inversión Inmobiliaria, turismo, tecnología y universidades: los motores de nuestra ciudad.",
+    title: "Una ciudad de oportunidades",
+    subtitle: "Inversión Inmobiliaria, turismo, tecnología y universidades.",
     ctaText: "Explorar oportunidades",
-    backgroundImage: "https://res.cloudinary.com/dyybobphi/image/upload/v1764704340/imagen_favoritos_andres_guacurari1_jt3zdo.jpg"
+    backgroundImage: "/imagenhero/imagen_hero.jpg"
   },
   sections: [
     {

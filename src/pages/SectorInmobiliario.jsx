@@ -43,7 +43,7 @@ const SectorInmobiliario = () => {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: "url(https://res.cloudinary.com/dyybobphi/image/upload/v1764704340/imagen_favoritos_andres_guacurari1_jt3zdo.jpg)",
+            backgroundImage: "url(/imagenhero/hero_sector_inmobiliario.jpeg)",
           }}
         >
           <div className="absolute inset-0 bg-gradient-to-b from-primary-900/70 via-primary-800/60 to-primary-900/70"></div>
